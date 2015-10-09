@@ -1,0 +1,731 @@
+import json
+
+with open("./dictfile.json", "r") as files:
+  data = {
+ "kind": "books#volumes",
+ "totalItems": 879,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "Nk1JyuU2F_cC",
+   "etag": "JvT5hbOsMLc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/Nk1JyuU2F_cC",
+   "volumeInfo": {
+    "title": "Microelectronic Circuits",
+    "authors": [
+     "Adel S. Sedra",
+     "Kenneth Carless Smith"
+    ],
+    "publisher": "Oxford University Press",
+    "publishedDate": "2004",
+    "description": "CD-ROM includes PSpice 9.2 Lite edition, SPICE circuit examples, bonus text topics.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0195142519"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780195142518"
+     }
+    ],
+    "readingModes": {
+     "text": ''false'',
+     "image": ''false''
+    },
+    "pageCount": 1283,
+    "printType": "BOOK",
+    "categories": [
+     "Technology & Engineering"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 10,
+    "contentVersion": "0.1.0.0.preview.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=Nk1JyuU2F_cC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=Nk1JyuU2F_cC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=Nk1JyuU2F_cC&dq=items(Microelectronic+Circuits)&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=Nk1JyuU2F_cC&dq=items(Microelectronic+Circuits)&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Microelectronic_Circuits.html?hl=&id=Nk1JyuU2F_cC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": ''false''
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": ''false'',
+    "publicDomain": ''false'',
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": ''false''
+    },
+    "pdf": {
+     "isAvailable": ''false''
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=Nk1JyuU2F_cC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": ''false''
+   },
+   "searchInfo": {
+    "textSnippet": "CD-ROM includes PSpice 9.2 Lite edition, SPICE circuit examples, bonus text topics."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "gD4zApk9jC0C",
+   "etag": "rXR42fdY8UE",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/gD4zApk9jC0C",
+   "volumeInfo": {
+    "title": "Laboratory Manual for Microelectronic Circuits",
+    "authors": [
+     "Kenneth C. Smith",
+     "Adel S. Sedra"
+    ],
+    "publisher": "Oxford University Press, USA",
+    "publishedDate": "1991",
+    "description": "This manual contains approximately 35 experiments. It follows the organization of the text and includes experiments for all major topics. To help instructor's choose and prepare for the experiments this manual identifies the core experiments all students should perform and includes manufacturers' data sheets for the most common components.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0030552893"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780030552892"
+     }
+    ],
+    "readingModes": {
+     "text": ''false'',
+     "image": ''false''
+    },
+    "pageCount": 423,
+    "printType": "BOOK",
+    "categories": [
+     "Electronic circuits"
+    ],
+    "contentVersion": "1.1.1.0.preview.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=gD4zApk9jC0C&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=gD4zApk9jC0C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=gD4zApk9jC0C&q=items(Microelectronic+Circuits)&dq=items(Microelectronic+Circuits)&hl=&cd=2&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=gD4zApk9jC0C&dq=items(Microelectronic+Circuits)&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Laboratory_Manual_for_Microelectronic_Ci.html?hl=&id=gD4zApk9jC0C"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": ''false''
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": ''false'',
+    "publicDomain": ''false'',
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": ''false''
+    },
+    "pdf": {
+     "isAvailable": ''false''
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=gD4zApk9jC0C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": ''false''
+   },
+   "searchInfo": {
+    "textSnippet": "This manual contains approximately 35 experiments. It follows the organization of the text and includes experiments for all major topics."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "B64tuAAACAAJ",
+   "etag": "uFV3VV0VqMc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/B64tuAAACAAJ",
+   "volumeInfo": {
+    "title": "Microelectronic Circuits",
+    "authors": [
+     "Adel S. Sedra",
+     "Kenneth C. Smith"
+    ],
+    "publishedDate": "1998",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0030693411"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780030693410"
+     }
+    ],
+    "readingModes": {
+     "text": ''false'',
+     "image": ''false''
+    },
+    "pageCount": 1237,
+    "printType": "BOOK",
+    "averageRating": 4.0,
+    "ratingsCount": 9,
+    "contentVersion": "preview-1.0.0",
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=B64tuAAACAAJ&dq=items(Microelectronic+Circuits)&hl=&cd=3&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=B64tuAAACAAJ&dq=items(Microelectronic+Circuits)&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Microelectronic_Circuits.html?hl=&id=B64tuAAACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": ''false''
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": ''false'',
+    "publicDomain": ''false'',
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": ''false''
+    },
+    "pdf": {
+     "isAvailable": ''false''
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=B64tuAAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": ''false''
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "hRlTAAAAMAAJ",
+   "etag": "TEWMCd7xQUc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/hRlTAAAAMAAJ",
+   "volumeInfo": {
+    "title": "Microelectronic devices and circuits",
+    "authors": [
+     "Clifton G. Fonstad"
+    ],
+    "publisher": "McGraw-Hill College",
+    "publishedDate": "1994",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0070214964"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780070214965"
+     }
+    ],
+    "readingModes": {
+     "text": ''false'',
+     "image": ''false''
+    },
+    "pageCount": 686,
+    "printType": "BOOK",
+    "categories": [
+     "Technology & Engineering"
+    ],
+    "contentVersion": "0.1.1.0.preview.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=hRlTAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=hRlTAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=hRlTAAAAMAAJ&q=items(Microelectronic+Circuits)&dq=items(Microelectronic+Circuits)&hl=&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=hRlTAAAAMAAJ&dq=items(Microelectronic+Circuits)&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Microelectronic_devices_and_circuits.html?hl=&id=hRlTAAAAMAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": ''false''
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": ''false'',
+    "publicDomain": ''false'',
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": ''false''
+    },
+    "pdf": {
+     "isAvailable": ''false''
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=hRlTAAAAMAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": ''false''
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "03c4wldf-k4C",
+   "etag": "I0XbL1zv8sk",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/03c4wldf-k4C",
+   "volumeInfo": {
+    "title": "Revolution in Miniature",
+    "subtitle": "The History and Impact of Semiconductor Electronics",
+    "authors": [
+     "Ernest Braun"
+    ],
+    "publisher": "Cambridge University Press",
+    "publishedDate": "1982-10-21",
+    "description": "A basic contribution to the discussion of semiconductor electronics, the major technology of our age.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0521289033"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780521289030"
+     }
+    ],
+    "readingModes": {
+     "text": ''false'',
+     "image": 'true'
+    },
+    "pageCount": 247,
+    "printType": "BOOK",
+    "categories": [
+     "Technology & Engineering"
+    ],
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=03c4wldf-k4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=03c4wldf-k4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=03c4wldf-k4C&pg=PA215&dq=items(Microelectronic+Circuits)&hl=&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=03c4wldf-k4C&dq=items(Microelectronic+Circuits)&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Revolution_in_Miniature.html?hl=&id=03c4wldf-k4C"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": ''false''
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": ''false'',
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": ''false''
+    },
+    "pdf": {
+     "isAvailable": ''false''
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=03c4wldf-k4C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": ''false''
+   },
+   "searchInfo": {
+    "textSnippet": "It is no longer easy for the developed economies to export the simpler kinds of \u003cbr\u003e\nindustrial \u003cb\u003eproducts\u003c/b\u003e in exchange for raw ... This certainly does not mean that the \u003cbr\u003e\nfabrication of \u003cb\u003emicroelectronic circuits\u003c/b\u003e will become the entry fee to the club of&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "9vh5QAAACAAJ",
+   "etag": "jZy5HtHsMPs",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/9vh5QAAACAAJ",
+   "volumeInfo": {
+    "title": "Microelectronic Circuit Design",
+    "authors": [
+     "Richard Jaeger",
+     "Travis Blalock"
+    ],
+    "publisher": "McGraw-Hill Science/Engineering/Math",
+    "publishedDate": "2010-03-01",
+    "description": "Rmples",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0073380458"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780073380452"
+     }
+    ],
+    "readingModes": {
+     "text": ''false'',
+     "image": ''false''
+    },
+    "pageCount": 1376,
+    "printType": "BOOK",
+    "categories": [
+     "Technology & Engineering"
+    ],
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=9vh5QAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=9vh5QAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=9vh5QAAACAAJ&dq=items(Microelectronic+Circuits)&hl=&cd=6&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=9vh5QAAACAAJ&dq=items(Microelectronic+Circuits)&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Microelectronic_Circuit_Design.html?hl=&id=9vh5QAAACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": ''false''
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": ''false'',
+    "publicDomain": ''false'',
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": ''false''
+    },
+    "pdf": {
+     "isAvailable": ''false''
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=9vh5QAAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": ''false''
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "gD4zApk9jC0C",
+   "etag": "qIjaTQEWdkY",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/gD4zApk9jC0C",
+   "volumeInfo": {
+    "title": "Laboratory Manual for Microelectronic Circuits",
+    "authors": [
+     "Kenneth C. Smith",
+     "Adel S. Sedra"
+    ],
+    "publisher": "Oxford University Press, USA",
+    "publishedDate": "1991",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0030552893"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780030552892"
+     }
+    ],
+    "readingModes": {
+     "text": ''false'',
+     "image": ''false''
+    },
+    "pageCount": 423,
+    "printType": "BOOK",
+    "categories": [
+     "Electronic circuits"
+    ],
+    "contentVersion": "1.1.1.0.preview.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=gD4zApk9jC0C&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=gD4zApk9jC0C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=gD4zApk9jC0C&q=items(Microelectronic+Circuits)&dq=items(Microelectronic+Circuits)&hl=&cd=7&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=gD4zApk9jC0C&dq=items(Microelectronic+Circuits)&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Laboratory_Manual_for_Microelectronic_Ci.html?hl=&id=gD4zApk9jC0C"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": ''false''
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": ''false'',
+    "publicDomain": ''false'',
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": ''false''
+    },
+    "pdf": {
+     "isAvailable": ''false''
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=gD4zApk9jC0C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": ''false''
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "L5k7AQAAMAAJ",
+   "etag": "pew1jKw1KC0",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/L5k7AQAAMAAJ",
+   "volumeInfo": {
+    "title": "Decisions of the Comptroller General of the United States",
+    "authors": [
+     "United States. General Accounting Office"
+    ],
+    "publishedDate": "1990",
+    "industryIdentifiers": [
+     {
+      "type": "OTHER",
+      "identifier": "NWU:35559003874777"
+     }
+    ],
+    "readingModes": {
+     "text": ''false'',
+     "image": true
+    },
+    "printType": "BOOK",
+    "categories": [
+     "Finance, Public"
+    ],
+    "contentVersion": "full-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=L5k7AQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=L5k7AQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=L5k7AQAAMAAJ&pg=PA555&dq=items(Microelectronic+Circuits)&hl=&cd=8&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=L5k7AQAAMAAJ&dq=items(Microelectronic+Circuits)&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Decisions_of_the_Comptroller_General_of.html?hl=&id=L5k7AQAAMAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FREE",
+    "isEbook": true,
+    "buyLink": "http://books.google.com/books?id=L5k7AQAAMAAJ&dq=items(Microelectronic+Circuits)&hl=&buy=&source=gbs_api"
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "ALL_PAGES",
+    "embeddable": true,
+    "publicDomain": true,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": ''false''
+    },
+    "pdf": {
+     "isAvailable": ''false''
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=L5k7AQAAMAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+    "quoteSharingAllowed": ''false''
+   },
+   "searchInfo": {
+    "textSnippet": "ed, among other \u003cb\u003ethings\u003c/b\u003e, analysis, evaluation, design, fabrication, prototyping, and \u003cbr\u003e\ninsertions of Very High Speed Integrated ... fabrication, replacement/ insertion \u003cbr\u003e\nand limited production of ICS devices and \u003cb\u003emicroelectronic circuit\u003c/b\u003e components."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "DMyj1Yg7AeIC",
+   "etag": "ZP5mQlDLe+U",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/DMyj1Yg7AeIC",
+   "volumeInfo": {
+    "title": "Export Controls",
+    "subtitle": "Processes for Determining Proper Control of Defense-Related Items Need Improvement",
+    "authors": [
+     "Katherine V. Schinasi",
+     "Anne-Marie Lasowski"
+    ],
+    "publisher": "DIANE Publishing",
+    "publishedDate": "2002-02",
+        "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "075673178X"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780756731786"
+     }
+    ],
+    "readingModes": {
+     "text": ''false'',
+     "image": true
+    },
+    "pageCount": 50,
+    "printType": "BOOK",
+    "categories": [
+     "Business & Economics"
+    ],
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=DMyj1Yg7AeIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=DMyj1Yg7AeIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=DMyj1Yg7AeIC&pg=PA12&dq=items(Microelectronic+Circuits)&hl=&cd=9&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=DMyj1Yg7AeIC&dq=items(Microelectronic+Circuits)&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Export_Controls.html?hl=&id=DMyj1Yg7AeIC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 14.95,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 9.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=DMyj1Yg7AeIC&dq=items(Microelectronic+Circuits)&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.495E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "ALL_PAGES",
+    "embeddable": true,
+    "publicDomain": ''false'',
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": ''false''
+    },
+    "pdf": {
+     "isAvailable": true
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=DMyj1Yg7AeIC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": ''false''
+   },
+   "searchInfo": {
+    "textSnippet": "Processes for Determining Proper Control of Defense-Related \u003cb\u003eItems\u003c/b\u003e Need \u003cbr\u003e\nImprovement Katherine V. Schinasi, ... This included radiation-hardened \u003cbr\u003e\n\u003cb\u003emicroelectronic circuits\u003c/b\u003e and nuclear weapons design and test equipment, which \u003cbr\u003e\ncould be&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "XvBCsx3HcKgC",
+   "etag": "GdBiZaYo6v8",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/XvBCsx3HcKgC",
+   "volumeInfo": {
+    "title": "Defense trade lessons to be learned from the country export exemption",
+    "authors": [
+     "General Accounting Office Washington Dc"
+    ],
+    "publisher": "DIANE Publishing",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781428944367"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1428944362"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "printType": "BOOK",
+    "contentVersion": "0.0.2.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=XvBCsx3HcKgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=XvBCsx3HcKgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=XvBCsx3HcKgC&pg=PA12&dq=items(Microelectronic+Circuits)&hl=&cd=10&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=XvBCsx3HcKgC&dq=items(Microelectronic+Circuits)&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Defense_trade_lessons_to_be_learned_from.html?hl=&id=XvBCsx3HcKgC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 14.95,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 9.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=XvBCsx3HcKgC&dq=items(Microelectronic+Circuits)&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.495E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "ALL_PAGES",
+    "embeddable": 'true',
+    "publicDomain": ''false'',
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": 'true'
+    },
+    "pdf": {
+     "isAvailable": 'true'
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=XvBCsx3HcKgC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": ''false''
+   },
+   "searchInfo": {
+    "textSnippet": "Agreement"
+   }
+  }
+ ]
+}
+  items = data['items']
+
+  rlist = []
+  for item in items:
+    rdict = {}
+    title = item['title']
+    if (title):
+      rdict['title'] = title
+    author = item['authors']
+    if(author):
+      rdict['authors'] = author
+    image = item['imageLinks']
+    if (image):
+      image = image['thumbnail']
+      rdict['imageLinks'] = image
+    isbn = item['industryIdentifiers']
+    length = len(isbn)
+    if (isbn and length != 0):
+      if (length > 1):
+        secisbn = isbn[1]
+        if (secisbn['type'] == 'ISBN_13'):
+          rdict['isbn'] = secisbn['identifier']
+        else:
+          rdict['isbn'] = isbn[0]['identifier']
+      else:
+        if (isbn['type'] == 'ISBN_13'):
+          rdict['isbn'] = isbn['identifier']
+
+    rlist.append(rdict)
+
+  print rlist
+  
