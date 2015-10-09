@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "Acebooks": {
+            "applicationId": "hyhz1kfEFA1j68kV2DYEwZR97naGoZNLUgTiQECy", 
+            "masterKey": "gu0Zi9V7o3U1Tel99igZWOlyOYTQSJWs1QdysjiE"
+        }, 
+        "_default": {
+            "link": "Acebooks"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.4"
+    }
+}
